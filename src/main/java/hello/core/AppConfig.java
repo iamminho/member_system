@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+// @Configuration을 붙이지 않으면 싱글톤이 보장되지 않는다.
 public class AppConfig {
 
     @Bean
